@@ -4,17 +4,22 @@ html {
 }
 
 nav {
-    position: sticky;
     top: 0px;
-    border-right: 1.5px solid rgb(167, 162, 162);
     max-width: fit-content;
 }
 
 
+nav ul {
+    position: fixed;
+    border-right: 1.5px solid rgb(167, 162, 162);
+
+
+}
 
 nav ul li {
 
     display: block;
+
     width: max-content;
     margin: 22px;
 
@@ -37,7 +42,7 @@ nav ul li a:hover {
 
 .outer {
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1fr 2fr;
 
 }
 
